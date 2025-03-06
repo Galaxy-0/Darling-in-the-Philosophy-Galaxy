@@ -1,0 +1,58 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器和IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 音频文件
+*.mp3
+*.wav
+*.aac
+*.m4a
+*.flac
+
+
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# Node.js (如果项目用到)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python (如果项目用到)
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+env/
+
+# 项目特定文件
+output/
+renders/
+audio_cache/
+video_cache/
+ai_models/
+
+# 私密配置文件
+config.private.json
+*.env
+secrets.yaml 
